@@ -1,0 +1,68 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color: #cacfd2;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+header {
+    background-color: #000c8e;
+}
+
+main{
+    flex: 1;
+    margin-bottom:10px;
+}
+
+.footer {
+
+    background-color: #000c8e;
+}
+
+.margin-top-30px {
+    margin-top: 30px;
+}
+
+.margin-top-60px {
+    margin-top: 60px;
+}
+
+.card {
+    background-color: #ddf1fc;
+    border-radius: 10px;
+}
+
+.nav-item a:hover {
+    background-color: red !important;
+    cursor: pointer;
+    color:white;
+}
+
+.display-none {
+    display: none;
+
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr{
+    background-color:black;
+}
+
+.maximum-height-250px{
+    max-height: 250px;
+}
+
+.border-radius-100px{
+    border-radius: 100px;
+}

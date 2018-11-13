@@ -1,0 +1,11 @@
+John||Creeds||<img src="images/employees/john_creeds.jpg">||(123) 546-4112||john.creeds@gmail.com||Mechanic\n
+Brooklyn||Daniels||<img src="images/employees/brooklyn_daniels.jpg">||(123) 546-4113||brooklyn.daniels@gmail.com||Receptionist\n
+Gale||Hawthorne||<img src="images/employees/gale_hawthorne.jpg">||(123) 546-4114||gale.hawthorne@gmail.com||Sales Manager\n
+Tom||Dumed||<img src="images/employees/tom_dumed.jpg">||(123) 546-4115||tom.dumed@gmail.com||Mechanic\n
+Hercule||Looky||<img src="images/employees/hercule_looky.jpg">||(123) 546-4116||hercule.looky@gmail.com||Salesperson\n
+Sarah||Wren||<img src="images/employees/sarah_wren.jpg">||(123) 546-4117||sarah.wren@gmail.com||Receptionist\n
+Canaan||Darius||<img src="images/employees/canaan_darius.jpg">||(123) 546-4118||canaan.darius@gmail.com||Internet Sales Manager\n
+Tom||Richards||<img src="images/employees/tom_richards.jpg">||(123) 546-4119||tom.richards@gmail.com||Business Development Center Rep\n
+Desmond||Auditore||<img src="images/employees/desmond_auditore.jpg">||(123) 546-4129||desmond.auditore@gmail.com||Salesperson\n
+Steve||Everdeen||<img src="images/employees/steve_everdeen.jpg">||(123) 546-4323||steve.everdeen@gmail.com||Salesperson\n
+

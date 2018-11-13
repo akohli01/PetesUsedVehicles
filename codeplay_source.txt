@@ -1,0 +1,113 @@
+
+// Fiddling around with PHP. I decided to use various fundamental PHP topics that I know about.
+
+echo "&lt;h2> Hello everyone, my name is Amit Kohli. Today we will be fiddling around with some PHP. &lt;/h2>;" ;
+
+
+//Work with variables
+
+echo "&lt;h4>First let us look at variables in PHP... &lt;/h4>";
+
+echo "PHP variables are identified using the '$' sign and can hold various data types including numbers, strings , and booleans &lt;br>";
+
+echo "&lt;h4>Let's look at a few examples...&lt;/h4>";
+
+
+//Create various variables
+
+$integer = 5;
+
+echo 'Hi, I am a variable named $integer and my value is ' .  $integer. ".&lt;br>";
+
+$string = "Good luck";
+
+echo 'Hi, I am a variable named $string and my value is '.  "'$string'". ".&lt;br>";
+
+$boolean = true;
+
+echo 'Hi, I am a variable named $boolean and my value is '.  $boolean ."&lt;br>";
+
+
+//Work with arrays
+
+echo "&lt;h4>Now we shall look at arrays...&lt;/h4>";
+
+echo "Arrays are used to multiple (usually homogeneous) values in a single variable. &lt;br>&lt;br>";
+
+
+//Create an array to store names 
+
+$names = ["Sam", "Bill", "George"];
+
+echo "A sample array has been created.. &lt;br>";
+
+echo 'Hi, I am an array called $names. I have '. count($names). ' names which are &lt;br>';
+
+foreach ($names as $name) {
+    echo $name. '&lt;br>';
+}
+
+
+//Work with functions
+
+echo "&lt;h4> Now let's work with functions... &lt;/h4>";
+
+echo "Functions are basically reusable 'actions'.&lt;br>";
+
+echo "Functions allow you to write code that can accept values, modify them, and then return the result if needed.&lt;br>&lt;br>";
+
+//Create a function to add two numbers
+
+function addNumbers($num1, $num2){
+return "The sum is " .($num1 + $num2);
+}
+
+echo "A function to add two numbers has been created. Now let us pass in two numbers. The numbers are 5 and 10.&lt;br>... ";
+
+echo addNumbers(5,10);
+
+
+//Types of functions
+
+echo "&lt;br>&lt;br>There are two basic types of functions: predefined and user-defined.";
+
+echo"&lt;br>Predefined functions come in different categories such as string or numeric functions";
+
+echo "&lt;br> An example would be a function to count the number of characters in a string";
+
+echo '&lt;br>&lt;br>A variable called $string contains the words "Good luck".';
+
+echo 'The number of charaters in $string is '. strlen($string);
+
+
+//Work with conditionals
+
+echo "&lt;h4>Now let's us work with conditional statements&lt;/h4>";
+
+echo "Sometimes we want to make decisions in our code. To do that we use if and else statements.&lt;br>&lt;br>";
+
+echo "Let's us compare two numbers and display the number that is greater.&lt;br>";
+
+echo 'The numbers are 5 (located in $num1) and 10 (located in $num2)&lt;br>';
+
+$num1 = 5;
+$num2 = 10;
+
+if ($num1 > $num2)
+echo $num1. " is greater than ". $num2;
+
+else 
+echo $num2. " is greater than ". $num1;
+
+
+//Various Practice
+
+echo "&lt;h4>Now let's practice some basic math! ......&lt;/h4>";
+
+echo '5+6 = '. (5+6). "&lt;br>";
+
+echo '5*6 = '. (5*6). "&lt;br>";
+
+echo '50/10 = '. (50/10). "&lt;br>";
+
+echo '50-7 = '. (50-7). "&lt;br>";

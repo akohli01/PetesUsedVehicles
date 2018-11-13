@@ -1,0 +1,15 @@
+
+
+
+Color Schemes:
+
+		Background: Dark Blue, Dark Grey, Light Blue
+		Foreground: Dark Blue, Red, Medium Grey
+
+Fonts:
+		Body: Helvetica
+		Header section: Courier
+		Main navigation: sans-serif
+
+Images:
+		Obtained from various public domain websites or created.
